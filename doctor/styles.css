@@ -1,0 +1,260 @@
+/* Common Styles */
+
+body {
+
+     font-family: Arial, sans-serif;
+    
+     margin: 0;
+    
+     background-color: #f7f9fc;
+    
+    }
+    
+    
+    
+    header {
+    
+     background-color: #004080;
+    
+     color: white;
+    
+     padding: 20px;
+    
+     text-align: center;
+    
+    }
+    
+    
+    
+    .sidebar {
+    
+     width: 220px;
+    
+     background-color: #e3e3e3;
+    
+     height: 100vh;
+    
+     position: fixed;
+    
+     top: 70px;
+    
+     left: 0;
+    
+     padding-top: 20px;
+    
+    }
+    
+    
+    
+    .sidebar a {
+    
+     display: block;
+    
+     padding: 15px 20px;
+    
+     text-decoration: none;
+    
+     color: #333;
+    
+     font-weight: bold;
+    
+    }
+    
+    
+    
+    .sidebar a:hover {
+    
+     background-color: #ccc;
+    
+    }
+    
+    
+    
+    .main-content {
+    
+     margin-left: 240px;
+    
+     padding: 20px;
+    
+    }
+    
+    
+    
+    .card {
+    
+     background-color: white;
+    
+     border-radius: 8px;
+    
+     padding: 20px;
+    
+     margin-bottom: 20px;
+    
+     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    
+    }
+    
+    
+    
+    .card h2 {
+    
+     margin-top: 0;
+    
+    }
+    
+    
+    
+    .card p {
+    
+     color: #555;
+    
+    }
+    
+    
+    
+    .btn {
+    
+     display: inline-block;
+    
+     padding: 10px 15px;
+    
+     background-color: #004080;
+    
+     color: white;
+    
+     text-decoration: none;
+    
+     border-radius: 5px;
+    
+    margin-top: 10px;
+    
+    }
+    
+    
+    
+    .btn:hover {
+    
+     background-color: #002a59;
+    
+    }
+    
+    
+    
+    table {
+    
+    width: 100%;
+    
+    border-collapse: collapse;
+    
+    }
+    
+    
+    
+    th, td {
+    
+    padding: 12px;
+    
+    border-bottom: 1px solid #ccc;
+    
+    }
+    
+    
+    
+    th {
+    
+    background-color: #004080;
+    
+    color: white;
+    
+    }
+    
+    
+    
+    td {
+    
+    background-color: #f9f9f9;
+    
+    }
+    
+    
+    
+    input[type="text"], input[type="date"], input[type="time"], textarea {
+    
+    width: 100%;
+    
+    padding: 10px;
+    
+    margin-top: 5px;
+    
+    margin-bottom: 10px;
+    
+    border: 1px solid #ccc;
+    
+    border-radius: 5px;
+    
+    }
+    
+    
+    
+    input[type="submit"] {
+    
+    padding: 10px 20px;
+    
+     background-color: #004080;
+    
+     color: white;
+    
+     border: none;
+    
+    border-radius: 5px;
+    
+    cursor: pointer;
+    
+    }
+    
+    
+    
+    input[type="submit"]:hover {
+    
+     background-color: #002a59;
+    
+    }
+
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    background: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+.checkbox-group label:hover {
+    background: #e0e0e0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007bff; /* Bootstrap blue */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+

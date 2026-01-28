@@ -1,0 +1,57 @@
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 8px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(28, 90, 132);
+}
+
+h2 {
+    color: #3498db;
+    text-align: center;
+    padding: 6px;
+}
+
+.allergy-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    input, select, textarea, button {
+        font-size: 16px; /* Slightly larger inputs on small screens */
+        padding: 12px;
+    }
+
+    button {
+        width: 100%; /* Full width buttons on small screens */
+    }
+
+    .allergy-container {
+        gap: 8px; /* Slightly reduced gap for smaller screens */
+    }
+}

@@ -1,0 +1,221 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+section
+{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+}
+section .imgBx
+{
+	position: relative;
+	width: 50%;
+	height: 100%;
+}
+section .imgBx:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(225deg, darkred, darkred);
+	z-index:1;
+	mix-blend-mode: soft-light;
+	
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: rgb(71, 41, 41); /* Green */
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: darkred;
+}
+
+section .imgBx img
+{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+section .form-container
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 100%;
+}
+
+section .form-container .formBx
+{
+	width: 50%;
+}
+
+section .form-container .formBx h3
+{
+	color: black;
+	font-weight: 600;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	border-bottom: 4px solid rgb(111, 8, 8);
+	display: inline-block;
+	letter-spacing: 1px;
+}
+
+section .form-container .formBx .inputBx 
+{
+	margin-bottom: 20px;
+}
+
+section .form-container .formBx .inputBx span
+{
+	font-size: 16px;
+	margin-bottom: 5px;
+	display: inline-block;
+	color: black;
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+section .form-container .formBx .inputBx input
+{
+	width: 100%;
+	padding: 10px 20px;
+	outline: none;
+	font-weight: 400;
+	border: 1px solid #000000;
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: #000000;
+	background: transparent;
+	border-radius: 30px;
+}
+
+section .form-container .formBx .inputBx input[type="submit"]
+{
+	background:red;
+	color: #fff;
+	outline: none;
+	border: none;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+section .form-container .formBx .inputBx input[type="submit"]:hover
+{
+	background: black;
+}
+
+section .form-container .formBx .remember
+{
+	margin-top: -29px;
+	margin-bottom: 10px;
+	color:  black;
+	font-weight: 400;
+	font-size: 17px;
+}
+
+section .form-container .formBx .inputBx p
+{
+	color: black;
+	text-align: center;
+}
+
+section .form-container .formBx .inputBx p a
+{
+	color:red;
+}
+
+.show_cpass{
+	all: initial;
+	transform: translateX(-4rem);
+	color: rgb(101, 9, 9);
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: .1rem;
+	cursor: pointer;
+	position: absolute;
+	right: 248px;
+	transform: translateX(5rem);
+	cursor: pointer;
+	transform: translateY(0.73rem);
+	max-width: 2rem;
+}
+
+.show_pass{
+	all: initial;
+	transform: translateX(-4rem);
+	color: rgb(108, 9, 9);
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: .1rem;
+	cursor: pointer;
+	position: absolute;
+	right: 248px;
+	transform: translateX(5rem);
+	cursor: pointer;
+	transform: translateY(0.73rem);
+	max-width: 2rem;
+}
+
+#register_link :hover{
+  /*color:rgb(38, 38, 250);*/
+  color:black;
+}
+
+@media (max-width: 768px)
+{
+	section .imgBx
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	section .form-container
+	{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+	}
+	section .form-container .formBx
+	{
+		width: 100%;
+		padding: 40px;
+		background: rgb(255 255 255/ 0.9);
+		margin: 50px;
+	}
+	section .form-container .formBx h3
+	{
+		color: black;
+		text-align: center;
+		margin: 30px 0 10px;
+		font-weight: 500;
+	}
+}

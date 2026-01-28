@@ -1,0 +1,13 @@
+<?php
+// Using MySQLi OOP style:
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "senior";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+?>
